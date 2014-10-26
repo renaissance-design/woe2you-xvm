@@ -91,5 +91,11 @@
         "strength": 2
       }
     }
+    // Parameters for tank carousel
+    // Параметры карусели танков
+    "carousel": ${"carousel.xc":"carousel"},
+    // Parameters for hangar clock
+    // Параметры часов в ангаре
+    "clock": ${"clock.xc":"clock"}
   }
 }
