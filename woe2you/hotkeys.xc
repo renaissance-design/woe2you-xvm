@@ -27,7 +27,7 @@
     // "Caps Lock": 20
     
     "minimapZoom": { 
-      "enabled": false,
+      "enabled": true,
       "onHold": true,
       "keyCode": 17 
     }
