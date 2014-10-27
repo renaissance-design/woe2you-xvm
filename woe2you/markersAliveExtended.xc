@@ -240,7 +240,7 @@
         "color": "{{c:t-rating}}",
         "font": {
           "name": "$FieldFont",
-          "size": 11,
+          "size": 13,
           "align": "center",
           "bold": true,
           "italic": false
@@ -417,7 +417,7 @@
         "color": "{{c:t-rating}}",
         "font": {
           "name": "$FieldFont",
-          "size": 11,
+          "size": 13,
           "align": "center",
           "bold": true,
           "italic": false
