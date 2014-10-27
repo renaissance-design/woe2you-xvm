@@ -1,4 +1,4 @@
-﻿/**
+/**
  * Options for alive with Alt markers.
  * Настройки маркеров для живых с Alt.
  */
@@ -181,9 +181,9 @@
         "name": "Tank name",          // название текстового поля, ни на что не влияет
         "visible": true,                // false - не отображать
         "x": 0,                         // положение по оси X
-        "y": -36,                       // положение по оси Y
+        "y": -49,                       // положение по оси Y
         "alpha": 100,                   // прозрачность (допускается использование динамической прозрачности, см. readme-ru.txt)
-        "color": null,                  // цвет (допускается использование динамического цвета, см. readme-ru.txt)
+        "color": "{{c:rating}}",                  // цвет (допускается использование динамического цвета, см. readme-ru.txt)
         // Параметры шрифта.
         "font": {
           "name": "$FieldFont",         //   название
@@ -201,7 +201,7 @@
           "size": 6,                    //   размер
           "strength": 200               //   интенсивность
         },
-        "format": "{{nick}}"            // формат текста. См. описание макросов в readme-ru.txt
+        "format": "{{nick}}: {{rating%2d~%}}"            // формат текста. См. описание макросов в readme-ru.txt
       },
       // Text field with the percentage of remaining health.
       // Текстовое поле с процентом оставшегося здоровья.
@@ -235,9 +235,9 @@
         "name": "Win Rate",
         "visible": true,
         "x": 0,
-        "y": -46,
+        "y": -36,
         "alpha": 100,
-        "color": "{{c:rating}}",
+        "color": "{{c:t-rating}}",
         "font": {
           "name": "$FieldFont",
           "size": 11,
@@ -253,7 +253,7 @@
           "size": 6,
           "strength": 200
         },
-        "format": "{{rating%2d~%}}"
+        "format": "{{vehicle}}: {{t-rating%2d~%}}"
       }
     ]
   },
@@ -360,9 +360,9 @@
         "name": "Player name",
         "visible": true,
         "x": 0,
-        "y": -36,
+        "y": -49,
         "alpha": 100,
-        "color": null,
+        "color": "{{c:rating}}",
         "font": {
           "name": "$FieldFont",
           "size": 13,
@@ -378,7 +378,7 @@
           "size": 6,
           "strength": 200
         },
-        "format": "{{nick}}"
+        "format": "{{nick}}: {{rating%2d~%}}"
       },
       // Text field with the percentage of remaining health.
       // Текстовое поле с процентом оставшегося здоровья.
@@ -412,9 +412,9 @@
         "name": "Процент побед",
         "visible": true,
         "x": 0,
-        "y": -46,
+        "y": -36,
         "alpha": 100,
-        "color": "{{c:rating}}",
+        "color": "{{c:t-rating}}",
         "font": {
           "name": "$FieldFont",
           "size": 11,
@@ -430,7 +430,7 @@
           "size": 6,
           "strength": 200
         },
-        "format": "{{rating%2d~%}}"
+        "format": "{{vehicle}}: {{t-rating%2d~%}}"
       }
     ]
   }
