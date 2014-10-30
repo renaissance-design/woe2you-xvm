@@ -201,7 +201,7 @@
           "size": 6,                    //   размер
           "strength": 200               //   интенсивность
         },
-        "format": "{{nick}}: {{rating%2d~%}} ({{kb}})"            // формат текста. См. описание макросов в readme-ru.txt
+        "format": "{{nick}}: {{rating%2d~%}} ({{kb%2d~k}})"            // формат текста. См. описание макросов в readme-ru.txt
       },
       // Text field with the percentage of remaining health.
       // Текстовое поле с процентом оставшегося здоровья.
@@ -378,7 +378,7 @@
           "size": 6,
           "strength": 200
         },
-        "format": "{{nick}}: {{rating%2d~%}} {{kb}}"
+        "format": "{{nick}}: {{rating%2d~%}} {{kb%2d~k}}"
       },
       // Text field with the percentage of remaining health.
       // Текстовое поле с процентом оставшегося здоровья.
