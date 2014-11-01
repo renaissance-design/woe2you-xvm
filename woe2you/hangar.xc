@@ -90,7 +90,7 @@
         "blur": 4,
         "strength": 2
       }
-    }
+    },
     // Parameters for tank carousel
     // Параметры карусели танков
     "carousel": ${"carousel.xc":"carousel"},
