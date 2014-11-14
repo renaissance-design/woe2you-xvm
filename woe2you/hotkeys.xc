@@ -29,7 +29,7 @@
     "minimapZoom": { 
       "enabled": true,
       "onHold": true,
-      "keyCode": 17 
+      "keyCode": 29 
     }
   }
 }
