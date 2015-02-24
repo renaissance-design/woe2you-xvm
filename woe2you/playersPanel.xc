@@ -158,10 +158,14 @@
       // Дополнительные поля. Каждое поле имеет размер 350x25. Поля располагаются друг над другом.
       // Set of formats for left panel (extended format supported, see above)
       // Набор форматов для левой панели (поддерживается расширенный формат, см. выше)
-      "extraFieldsLeft": [],
+      "extraFieldsLeft": [
+				{ "x": -8, "y": 5, "bindToIcon": true, "src": "xvm://res/icons/xvm/xvm-user-{{xvm-user|none}}.png" },
+			],
       // Set of formats for right panel (extended format supported, see above)
       // Набор форматов для правой панели (поддерживается расширенный формат, см. выше)
-      "extraFieldsRight": []
+      "extraFieldsRight": [
+			 { "x": -75, "y": 5, "bindToIcon": true, "src": "xvm://res/icons/xvm/xvm-user-{{xvm-user|none}}.png" },
+		]
     },
     // Options for the "medium" panels - the first of the medium panels.
     // Режим ушей "medium" - первые средние уши в игре.
@@ -183,10 +187,14 @@
       // Дополнительные поля. Каждое поле имеет размер 350x25. Поля располагаются друг над другом.
       // Set of formats for left panel (extended format supported, see above)
       // Набор форматов для левой панели (поддерживается расширенный формат, см. выше)
-      "extraFieldsLeft": [],
+      "extraFieldsLeft": [
+				{ "x": -8, "y": 5, "bindToIcon": true, "src": "xvm://res/icons/xvm/xvm-user-{{xvm-user|none}}.png" },
+			],
       // Set of formats for right panel (extended format supported, see above)
       // Набор форматов для правой панели (поддерживается расширенный формат, см. выше)
-      "extraFieldsRight": []
+      "extraFieldsRight": [
+			 { "x": -75, "y": 5, "bindToIcon": true, "src": "xvm://res/icons/xvm/xvm-user-{{xvm-user|none}}.png" },
+		]
     },
     // Options for the "medium2" panels - the second of the medium panels.
     // Режим ушей "medium2" - вторые средние уши в игре.
@@ -208,10 +216,14 @@
       // Дополнительные поля. Каждое поле имеет размер 350x25. Поля располагаются друг над другом.
       // Set of formats for left panel (extended format supported, see above)
       // Набор форматов для левой панели (поддерживается расширенный формат, см. выше)
-      "extraFieldsLeft": [],
+      "extraFieldsLeft": [
+				{ "x": -8, "y": 5, "bindToIcon": true, "src": "xvm://res/icons/xvm/xvm-user-{{xvm-user|none}}.png" },
+			],
       // Set of formats for right panel (extended format supported, see above)
       // Набор форматов для правой панели (поддерживается расширенный формат, см. выше)
-      "extraFieldsRight": []
+      "extraFieldsRight": [
+			 { "x": -75, "y": 5, "bindToIcon": true, "src": "xvm://res/icons/xvm/xvm-user-{{xvm-user|none}}.png" },
+		]
     },
     // Options for the "large" panels - the widest panels.
     // Режим ушей "large" - широкие уши в игре.
@@ -235,10 +247,14 @@
       // Дополнительные поля. Каждое поле имеет размер 350x25. Поля располагаются друг над другом.
       // Set of formats for left panel (extended format supported, see above)
       // Набор форматов для левой панели (поддерживается расширенный формат, см. выше)
-      "extraFieldsLeft": [],
+      "extraFieldsLeft": [
+				{ "x": -8, "y": 5, "bindToIcon": true, "src": "xvm://res/icons/xvm/xvm-user-{{xvm-user|none}}.png" },
+			],
       // Set of formats for right panel (extended format supported, see above)
       // Набор форматов для правой панели (поддерживается расширенный формат, см. выше)
-      "extraFieldsRight": []
+      "extraFieldsRight": [
+			 { "x": -75, "y": 5, "bindToIcon": true, "src": "xvm://res/icons/xvm/xvm-user-{{xvm-user|none}}.png" },
+		]
     }
   }
 }
