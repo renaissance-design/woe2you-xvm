@@ -1,4 +1,4 @@
-/**
+﻿/**
  * Minimap circles. Only real map meters. Only for own unit.
  */
 {

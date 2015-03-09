@@ -28,7 +28,7 @@
         "header": "<font color='#FFFFFF'>{{l10n:hpLeftTitle}}</font>",
         // Row in HP list (macros allowed, see readme-en.txt).
         // Строка в списке попаданий (допускаются макроподстановки, см. readme-ru.txt)
-        "format": "<textformat leading='-4' tabstops='[50,90,190]'><font color='{{c:hp-ratio}}'>     {{hp}}</font><tab><font color='#FFFFFF'>/ </font>{{hp-max}}<tab><font color='#FFFFFF'>|</font><font color='{{c:vtype}}'>{{vehicle}}</font><tab><font color='#FFFFFF'>|{{nick}}</font></textformat>"
+        "format": "<textformat leading='-4' tabstops='[50,90,190]'><font color='{{c:hp-ratio}}'>{{hp}}</font><tab><font color='#FFFFFF'>/ </font>{{hp-max}}<tab><font color='#FFFFFF'>|</font><font color='{{c:vtype}}'>{{vehicle}}</font><tab><font color='{{c:wn8}}'>|{{nick}}</font></textformat>"
     },
 
     // X position (negative values - bind to right side of screen).

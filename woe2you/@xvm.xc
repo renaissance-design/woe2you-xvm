@@ -46,7 +46,7 @@
   "definition": {
     // Config author.
     // Автор конфига.
-    "author": "XVM team",
+    "author": "woe2you",
 
     // Config description.
     // Описание конфига.
@@ -58,11 +58,11 @@
 
     // Config last modified.
     // Дата последней модификации конфига.
-    "date": "02.07.2014",
+    "date": "26.10.2014",
 
     // Supported version of the game.
     // Поддерживаемая версия игры.
-    "gameVersion": "0.9.1",
+    "gameVersion": "0.9.3",
 
     // The minimum required version of the XVM mod.
     // Минимально необходимая версия мода XVM.
