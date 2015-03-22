@@ -12,7 +12,7 @@
     "showChancesLive": false,
     // true - Enable display of battle tier.
     // true - включить отображение уровня боя.
-    "showBattleTier": false,
+    "showBattleTier": true,
     // true - Disable Platoon icons.
     // true - убрать отображение иконки взвода.
     "removeSquadIcon": false,
