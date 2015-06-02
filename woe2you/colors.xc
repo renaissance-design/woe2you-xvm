@@ -270,18 +270,16 @@
     // Dynamic color by win percent
     // Динамический цвет по проценту побед
     "rating": [
-
-	  { "value": 46,  "color": ${"def.colorRatingNew.beginner"		} },
-	  { "value": 47,  "color": ${"def.colorRatingNew.basic"			} },
-	  { "value": 48,  "color": ${"def.colorRatingNew.below_average"	} },
-	  { "value": 50,  "color": ${"def.colorRatingNew.average"		} },
-	  { "value": 52, "color": ${"def.colorRatingNew.above_average"	} },
-	  { "value": 54, "color": ${"def.colorRatingNew.good"			} },
-	  { "value": 56, "color": ${"def.colorRatingNew.very_good"		} },
-	  { "value": 60, "color": ${"def.colorRatingNew.great"			} },
-	  { "value": 65, "color": ${"def.colorRatingNew.unicum"			} },
-	  { "value": 101, "color": ${"def.colorRatingNew.super_unicum"	} } 
-	  
+	  { "value": 45,  "color": ${"def.colorRatingNew.beginner"		} },
+	  { "value": 46,  "color": ${"def.colorRatingNew.basic"			} },
+	  { "value": 47,  "color": ${"def.colorRatingNew.below_average"	} },
+	  { "value": 48,  "color": ${"def.colorRatingNew.average"		} },
+	  { "value": 50, "color": ${"def.colorRatingNew.above_average"	} },
+	  { "value": 52, "color": ${"def.colorRatingNew.good"			} },
+	  { "value": 54, "color": ${"def.colorRatingNew.very_good"		} },
+	  { "value": 56, "color": ${"def.colorRatingNew.great"			} },
+	  { "value": 60, "color": ${"def.colorRatingNew.unicum"			} },
+	  { "value": 65, "color": ${"def.colorRatingNew.super_unicum"	} } 	  
     ],
     // Dynamic color by kilo-battles
     // Динамический цвет по количеству кило-боев
