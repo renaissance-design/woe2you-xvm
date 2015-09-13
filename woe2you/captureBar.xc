@@ -13,7 +13,7 @@
     "enemyColor": null,
     // Upper textfield offset in case of big font size.
     // Смещение верхнего поля вверх на случай больших размеров шрифтов.
-    "primaryTitleOffset": 7,
+    "primaryTitleOffset": 14,
     // Append plus to three capturers. Cant calculate more than three.
     // Дописывать плюс к тройке захватчиков. Невозможно рассчитать более трёх.
     "appendPlus" : true,
